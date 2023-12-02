@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    --primary:#e10ee8; /*fd4766*/
+    --primary:rgba(8, 195, 30, 0.77); /*fd4766*/
     --white:#ffffff;
 }
 a{
