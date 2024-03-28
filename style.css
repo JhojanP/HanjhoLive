@@ -12,7 +12,9 @@ a{
 }
 .hero{
     position: relative;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 80%;
     height: 100vh;
     margin: 0 auto;
@@ -27,7 +29,8 @@ nav{
     padding:30px,100px;
 }
 .logo{
-    max-width: 60px;
+     text-decoration: none;
+     color:black;
 }
 nav ul li {
     list-style: none;
@@ -77,17 +80,16 @@ nav ul li a:hover:after{
     color:var(--primary);
 }
 .content{
-    position: absolute;
-    top:35%;
-    left:8%;
+    position: relative;
+      
 }
 .content .title{
     color :#0a0a0a;
-    font-size: 20px;
+    font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: 4px;
     display:inline-block;
-    margin-bottom: 20px;
+    margin-bottom: .3rem;
     background: linear-gradient(
         120deg,
         #1c99fe 20.69%,
@@ -100,7 +102,7 @@ nav ul li a:hover:after{
 }
 .content h1{
     color:#1f1f25;
-    font-size: 75px;
+    font-size: 5rem;
     font-weight: 900;
     line-height: 90px;
     text-transform: inherit;
